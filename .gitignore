@@ -99,3 +99,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# SQLite DBs
+
+*.sqlite3
+
+# Project-specific
+
