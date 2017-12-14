@@ -5,14 +5,21 @@
 {% block body_class %}template-blogindexpage{% endblock %}
 
 {% block content %}
-    <h1>{{ page.title }}</h1>
-
+	<div>
+	    <h2>{{ page.title }}</h2>
+	<div>
     <div class="intro">{{ page.intro|richtext }}</div>
 
     {% for post in page.get_children %}
-        <h2><a href="{% pageurl post %}">{{ post.title }}</a></h2>
-        {{ post.specific.intro }}
-        {{ post.specific.body|richtext }}
+        <div class="track-title">
+        	<h2><a href="{% pageurl post %}">{{ post.title }}</a></h2>
+        </div>
+        <div>
+        	{{ post.specific.intro }}
+        	<div class="video-embed">
+        	{{ post.specific.track }}
+        	</div>
+        </div>
     {% endfor %}
 
 {% endblock %}

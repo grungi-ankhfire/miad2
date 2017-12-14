@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Loved by the King', cursive;
+    color: white;
+    text-shadow: 3px 3px 1px #000;
+    font-size : 4em;
+    margin-top: 0;
+}
+
+body {
+    margin:0;
+}
+header {
+    background: rgb(200,0,0);
+    height: 200px;
+    width: 100%;
+    -webkit-clip-path: polygon(100% 0, 100% 65%, 54% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 20%, 0% 100%, 0 100%, 0 0);
+    position: fixed;
+}
+
+.content  {
+    padding-top: 200px;
+}

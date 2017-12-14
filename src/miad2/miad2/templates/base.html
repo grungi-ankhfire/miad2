@@ -23,6 +23,7 @@
 
         {# Global stylesheets #}
         <link rel="stylesheet" type="text/css" href="{% static 'css/miad2.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Loved+by+the+King" rel="stylesheet">
 
         {% block extra_css %}
             {# Override this in templates to add extra stylesheets #}
@@ -32,8 +33,18 @@
     <body class="{% block body_class %}{% endblock %}">
         {% wagtailuserbar %}
 
+        {% block header %}
+        <header>
+            <div>
+            <h1>
+                Music Is A Drug
+            </h1>
+        </div>
+        </header>
+        {% endblock %}
+        <div class="content">
         {% block content %}{% endblock %}
-
+        </div>
         {# Global javascript #}
         <script type="text/javascript" src="{% static 'js/miad2.js' %}"></script>
 

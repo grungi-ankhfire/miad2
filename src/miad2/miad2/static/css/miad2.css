@@ -1,0 +1,58 @@
+h1 {
+    font-family: 'Loved by the King', cursive;
+    color: white;
+    text-shadow: 3px 3px 1px #000;
+    font-size : 4em;
+    margin-top: 0;
+}
+
+body {
+    margin:0;
+}
+header {
+    background: rgb(200,0,0);
+    height: 200px;
+    width: 100%;
+    -webkit-clip-path: polygon(100% 0, 100% 65%, 54% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 20%, 0% 100%, 0 100%, 0 0);
+    position: fixed;
+    z-index: 1;
+}
+
+.content  {
+    padding-top: 200px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Loved by the King', cursive;
+    padding: 30px;
+    background: rgb(200,0,0);
+    width: auto;
+    display: inline-block;
+    -webkit-clip-path: polygon(10% 5%, 100% 20%, 95% 90%, 0 100%);
+    clip-path: polygon(10% 5%, 100% 20%, 95% 90%, 0 100%);
+}
+
+
+.track-title {
+    text-align: center;
+}
+
+.responsive-object {
+  position: relative;
+  height: 0;
+  margin: 10px 0;
+  overflow: hidden;
+}
+.responsive-object iframe,
+  .responsive-object object,
+  .responsive-object embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 800px;
+    width: 100%;
+    max-height: 450px;
+    height: 100%;
+}
