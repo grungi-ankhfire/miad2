@@ -8,6 +8,7 @@ h1 {
 
 body {
     margin:0;
+    background: rgb(230,230,230);
 }
 header {
     background: rgb(200,0,0);
@@ -20,4 +21,10 @@ header {
 
 .content  {
     padding-top: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1200px;
+    margin-left: auto ;
+    margin-right: auto ;
+    background: white;
 }
