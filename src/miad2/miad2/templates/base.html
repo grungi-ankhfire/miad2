@@ -34,13 +34,16 @@
         {% wagtailuserbar %}
 
         {% block header %}
-        <header>
+        <header id="animated-header" class="header-extended">
             <div>
             <h1><a href="/">
                 Music Is A Drug</a>
             </h1>
         </div>
         </header>
+        <div id="menubar">
+            Menu!
+        </div>
         {% endblock %}
         <div class="content">
         {% block content %}{% endblock %}
