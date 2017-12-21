@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags wagtailimages_tags %}
+{% block content %}
+    {{ form.media.js }}
+    Adding a music track
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form }}
+
+        <input type="submit" />
+    </form>
+{% endblock %}
