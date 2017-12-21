@@ -1,0 +1,49 @@
+body {
+    background: rgb(0,0,0);
+    display: flex;
+}
+
+
+.content {
+    background: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form-header {
+    font-size: 2.5em;
+}
+
+.login-form {
+    background: rgb(200,0,0);
+    padding: 100px;
+    -webkit-clip-path: polygon(10% 5%, 100% 20%, 95% 90%, 0 100%);
+    clip-path: polygon(15% 5%, 100% 0%, 90% 100%, 0% 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type=submit] {
+    background: black;
+    border: none;
+    color: white;
+    font-family: 'Loved by the King', cursive;
+    font-size: 2em;
+    -webkit-clip-path: polygon(10% 5%, 100% 20%, 95% 90%, 0 100%);
+    clip-path: polygon(10% 5%, 100% 20%, 95% 90%, 0 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
